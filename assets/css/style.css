@@ -108,6 +108,36 @@
 
 }
 
+.next {
+    border: 1px solid #373737;
+    border-radius: 50px;
+    display: flex;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: -4%;
+    top: 60%;
+}
+
+.next:hover svg path {
+    fill: #FF5300;
+
+}
+
+.next:hover {
+    border: 1px solid #FF5300;
+}
+
+.outer:hover svg path {
+    fill: #FF5300;
+}
+
+.outer:hover {
+    border: 1px solid #FF5300;
+}
+
 .choose {
     font-family: "Poppins", sans-serif;
     font-size: 48.83px;
