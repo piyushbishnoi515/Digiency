@@ -7,7 +7,7 @@ $('.slider').slick({
     autoplay: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    prevArrow: ".errow",
+    prevArrow: ".outer",
     nextArrow: ".next",
 
     responsive: [
