@@ -147,6 +147,16 @@
     max-width: 602px;
 }
 
+.p-10 {
+    padding: 10px;
+}
+
+.card-div {
+    border-right: 3px solid white;
+    height: 134px;
+    /* border-radius: 4px; */
+}
+
 .percent {
     font-family: "Poppins", sans-serif;
     font-size: 25px;
@@ -154,6 +164,34 @@
     line-height: 37.5px;
     text-align: center;
     color: #FF5300;
+}
+
+.number1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 39.06px;
+    font-weight: 600;
+    line-height: 58.59px;
+    color: white;
+}
+
+.top {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: white;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.orange-box {
+    background-color: #FF5300;
+}
+
+.mt-70 {
+    margin-top: 70px;
 }
 
 .small-card {
