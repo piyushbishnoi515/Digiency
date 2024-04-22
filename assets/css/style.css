@@ -147,6 +147,45 @@
     max-width: 602px;
 }
 
+.percent {
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37.5px;
+    text-align: center;
+    color: #FF5300;
+}
+
+.small-card {
+    max-width: 125px;
+    height: 108px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 4px 0px #0000001A;
+    padding: 10px;
+}
+
+.small-card:hover {
+    box-shadow: 0px 1px 4px 0px #FF5300;
+}
+
+.softwer {
+    font-family: "Poppins", sans-serif;
+    font-size: 12.8px;
+    font-weight: 300;
+    line-height: 19.2px;
+    text-align: center;
+    color: #373737;
+}
+
+.forward-text {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #7B7B7B;
+    padding-top: 18px;
+}
+
 .menulist2 {
     font-family: "Poppins", sans-serif;
     font-size: 20px;
@@ -214,12 +253,28 @@
     color: #EFEFEF;
 }
 
+.card-3:hover .number {
+    color: #FF5300;
+}
+
 .gap-10 {
     gap: 10px;
 }
 
 .ml-10 {
     margin-left: 10px;
+}
+
+.pb-15 {
+    padding-bottom: 15px;
+}
+
+.what-text1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 39.06px;
+    font-weight: 600;
+    line-height: 58.59px;
+    color: #373737;
 }
 
 .lorem-3 {
@@ -237,6 +292,7 @@
     font-weight: 400;
     line-height: 24px;
     color: #373737;
+    max-width: 530px;
 }
 
 .lorem-2 {
@@ -417,7 +473,18 @@
     box-shadow: 0px 7px 35px -5px #FF5300;
 }
 
+.slick-track {
+    display: flex !important;
+}
 
+.slick-slide {
+    height: inherit !important;
+    display: flex !important;
+}
+
+.slick-slide>div {
+    display: flex;
+}
 
 
 
