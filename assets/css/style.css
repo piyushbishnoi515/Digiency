@@ -269,6 +269,9 @@
     line-height: 37.5px;
     color: #FF5300;
 }
+.pt-60{
+    padding-top: 60px;  
+}
 
 .lorem-footer {
     font-family: "Poppins", sans-serif;
@@ -690,7 +693,7 @@
     font-weight: 400;
     line-height: 24px;
     color: #FF5300;
-    padding-top: 50px;
+    
 
 }
 
@@ -709,6 +712,7 @@
     border-radius: 5px;
     background-color: #FF5300;
     border: none;
+    transition: all 0.5s;
 }
 
 .get-btn:hover {
@@ -716,6 +720,7 @@
     color: #FF5300;
     border: 1px solid #FF5300;
     box-shadow: 0px 7px 35px -5px #FF5300;
+    scale: 1.2;
 }
 
 .slick-track {
