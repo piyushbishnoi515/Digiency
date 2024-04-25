@@ -344,6 +344,9 @@
     line-height: 24px;
     color: white;
 }
+.backgroundimg{
+    background-image: url(../image/backgroundinm.png);
+}
 
 
 
