@@ -26,11 +26,6 @@
     background-color: #FFF7F4;
 }
 
-.menuicon {
-    display: flex;
-    position: relative;
-    z-index: 10;
-}
 
 .nav-btn {
     width: 135px;
@@ -69,6 +64,10 @@
     cursor: pointer;
 }
 
+.p-30 {
+    padding: 30px;
+}
+
 .three-line {
     height: 2px;
     width: 32px;
@@ -103,8 +102,9 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    left: -4%;
+    left: -5%;
     top: 60%;
+    
 
 }
 
@@ -117,8 +117,10 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    right: -4%;
+    right: -5%;
     top: 60%;
+    margin-left: 7px;
+    
 }
 
 .next:hover svg path {
@@ -138,11 +140,16 @@
     border: 1px solid #FF5300;
 }
 
+.next,
+.outer {
+    display: none !important;
+}
+
 .choose {
     font-family: "Poppins", sans-serif;
-    font-size: 48.83px;
+    font-size: 36.83px;
     font-weight: 700;
-    line-height: 67px;
+    line-height: 52px;
     color: #373737;
     max-width: 602px;
 }
@@ -342,7 +349,6 @@
 
 .bg-white {
     max-width: 642px;
-    height: 64px;
     border-radius: 5px;
     background-color: white;
 }
@@ -478,15 +484,23 @@
     color: #7B7B7B;
     padding-top: 18px;
 }
-.pr-20{
+
+.pr-20 {
     padding-right: 20px;
 }
-.mb-15{
+
+.mb-15 {
     margin-bottom: 15px;
 }
-.c-pointer{
+
+.c-pointer {
     cursor: pointer;
 }
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
 .menulist2 {
     font-family: "Poppins", sans-serif;
     font-size: 20px;
@@ -496,13 +510,16 @@
     cursor: pointer;
     position: relative;
 }
-.radious{
+
+.radious {
     border-radius: 50%;
     background-color: #FF5300;
 }
-.radious:hover{
+
+.radious:hover {
     box-shadow: 0 0 10px white;
 }
+
 .menulist2::after {
     content: "";
     position: absolute;
@@ -513,6 +530,13 @@
     background-color: #FF5300;
     transform: translate(50%);
     transition: all 0.3s;
+}
+
+.menu {
+    position: fixed;
+    background-color: #FFF7F4;
+    width: 100%;
+    z-index: 10;
 }
 
 .menulist2:hover::after {
@@ -815,35 +839,86 @@
     display: flex !important;
 }
 
+.p-13 {
+    padding: 13px;
+}
+
 .slick-slide>div {
     display: flex;
 }
 
+.gap-26 {
+    gap: 26px;
+}
+
+.gap-13 {
+    gap: 13px;
+}
+
+.pl-33 {
+    padding-left: 33px;
+}
+
+.nav-icon {
+    position: fixed;
+    right: 5%;
+}
+
+.showlist {
+    right: 0%;
+}
+
+@media (min-width:576px) {
+    .choose {
+        font-family: "Poppins", sans-serif;
+        font-size: 48.83px;
+        font-weight: 700;
+        line-height: 67px;
+        color: #373737;
+        max-width: 602px;
+    }
+
+}
+
+@media (min-width:768px) {
+
+    .next,
+    .outer {
+        display: flex !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .lg-view {
+        position: fixed;
+        width: 100%;
+        height: 108vh;
+        top: 0;
+        left: -150%;
+        background-color: #FFF7F4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 3;
+        transition: 0.5s;
+        gap: 20px;
+    }
+
+    .nav-icon {
+        z-index: 4;
+    }
+
+    .show {
+        left: 0%;
+    }
+
+}
 
 
 @media (min-width:992px) {
-    .menuicon {
-        display: none;
-    }
-
-
-    .menulist {
-        display: flex;
-    }
-
-    .menulist {
-        width: fit-content;
-        height: fit-content;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row;
-        right: 0%;
-        top: 0;
-        transition: all 300ms linear;
-        background-color: transparent;
-        position: relative;
-        z-index: 2;
+    .nav-icon {
+        display: none !important;
     }
 
     .card-div::after {

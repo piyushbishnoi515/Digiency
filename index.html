@@ -19,28 +19,31 @@
 
 <body>
     <section class="bg-p">
-        <nav>
+        <nav class="p-13 d-flex justify-content-between  align-items-center menu">
             <div class="container">
                 <div class="d-flex align-items-center justify-content-between ">
                     <h1 class="logo">Digi<span class="black">ency</span></h1>
-                    <ul class="d-flex align-items-center m-0 gap-29 menulist">
-                        <li><a href="" class="menulist2">Home</a></li>
-                        <li><a href="" class="menulist2">About Us</a></li>
-                        <li><a href="" class="menulist2">Services</a></li>
-                        <li><a href="" class="menulist2">Portfolio</a></li>
-                        <li><a href="" class="menulist2">Blog</a></li>
-                        <li><a href="" class="menulist2">Contact Us</a></li>
+                    <div class="d-flex align-items-center lg-view gap-10 ">
+                        <ul class="d-flex align-items-center m-0 gap-26 menulist flex-column flex-lg-row p-0">
+                            <li><a href="" class="menulist2">Home</a></li>
+                            <li><a href="" class="menulist2">About Us</a></li>
+                            <li><a href="" class="menulist2">Services</a></li>
+                            <li><a href="" class="menulist2">Portfolio</a></li>
+                            <li><a href="" class="menulist2">Blog</a></li>
+                            <li><a href="" class="menulist2">Contact Us</a></li>
+                        </ul>
                         <button class="nav-btn">Let’s Talk</button>
-                    </ul>
+                    </div>
                 </div>
-                <!-- <div class="d-flex align-items-center  gap-7 flex-column menuicon">
-                    <span class="three-line d-flex"></span>
-                    <span class="three-line d-flex"></span>
-                    <span class="three-line d-flex"></span>
-                </div> -->
 
 
             </div>
+            <div class="d-flex align-items-center gap-10  nav-icon flex-column">
+                <span class="three-line d-flex"></span>
+                <span class="three-line d-flex"></span>
+                <span class="three-line d-flex"></span>
+            </div>
+
         </nav>
     </section>
     <section class="bg-p">
@@ -56,7 +59,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-12 ">
-                    <img src="./assets/image/sec-1.png" alt="section-1img" class="w-100">
+                    <img src="./assets/image/sec-1.png" alt="section-1img" class="w-100 pt-20">
                 </div>
             </div>
         </div>
@@ -439,7 +442,7 @@
                 <span class="line"></span>
             </div>
             <p class="what-text">What Our Client Saying</p>
-            <div class="slider">
+            <div class="slider pb-100">
                 <div class="child-slider">
                     <span class="d-flex">
                         <svg width="162" height="27" viewBox="0 0 162 27" fill="none"
@@ -762,7 +765,7 @@
                 </div>
 
             </div>
-            <span class="d-flex outer ">
+            <span class=" outer ">
                 <svg width="10" height="17" viewBox="0 0 10 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M3.53516 8.50008L9.72266 14.6876L7.95516 16.4551L0.000158052 8.50008L7.95516 0.54508L9.72266 2.31258L3.53516 8.50008Z"
@@ -770,7 +773,7 @@
                 </svg>
 
             </span>
-            <span class="d-flex next">
+            <span class=" next">
                 <svg width="30" height="31" viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M16.4648 15.4999L10.2773 9.31242L12.0448 7.54492L19.9998 15.4999L12.0448 23.4549L10.2773 21.6874L16.4648 15.4999Z"
@@ -1224,7 +1227,7 @@
                 </div>
                 <div class="col-lg-6 col-12 d-flex align-items-center justify-content-end ">
                     <div class="d-flex align-items-start flex-column">
-                        <form method="get" class="d-flex align-item bg-white p-2" id="email">
+                        <form method="get" class="d-flex align-item bg-white p-2 flex-wrap" id="email">
                             <input type="email" required placeholder="Enter your email" class="input-type">
                             <button class="get-btn1" type="submit">Subscribe Now</button>
                         </form>
@@ -1334,53 +1337,56 @@
             <div class="d-flex  align-items-center justify-content-center pt-60 pb-60">
                 <span class="line-footer"></span>
             </div>
-            <div class="d-flex align-items-center justify-content-between">
-                <div class="gap-18 d-flex align-items-center">
-                    <span>
-                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#clip0_50817_1906)">
-                                <path
-                                    d="M12 2.5C17.52 2.5 22 6.98 22 12.5C22 18.02 17.52 22.5 12 22.5C6.48 22.5 2 18.02 2 12.5C2 6.98 6.48 2.5 12 2.5ZM12 4.5C7.58 4.5 4 8.08 4 12.5C4 16.92 7.58 20.5 12 20.5C16.42 20.5 20 16.92 20 12.5C20 8.08 16.42 4.5 12 4.5ZM12 7.5C13.82 7.5 15.413 8.473 16.288 9.928L14.574 10.957C14.3043 10.5072 13.9213 10.1361 13.4634 9.88045C13.0055 9.62484 12.4885 9.49374 11.9641 9.50023C11.4397 9.50672 10.9262 9.65056 10.4747 9.91742C10.0232 10.1843 9.6496 10.5648 9.39107 11.0211C9.13254 11.4774 8.99815 11.9935 9.00128 12.5179C9.00442 13.0424 9.14498 13.5568 9.40895 14.01C9.67292 14.4632 10.0511 14.8392 10.5057 15.1007C10.9603 15.3621 11.4756 15.4998 12 15.5C12.5181 15.5003 13.0275 15.3664 13.4785 15.1112C13.9294 14.856 14.3065 14.4883 14.573 14.044L16.288 15.072C15.726 16.0106 14.8716 16.739 13.8559 17.1453C12.8402 17.5517 11.7192 17.6137 10.6649 17.3217C9.61058 17.0298 8.68114 16.4 8.01914 15.529C7.35713 14.6581 6.99912 13.594 7 12.5C7 9.74 9.24 7.5 12 7.5Z"
-                                    fill="white" />
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_50817_1906">
-                                    <rect width="24" height="24" fill="white" transform="translate(0 0.5)" />
-                                </clipPath>
-                            </defs>
-                        </svg>
-
-                    </span>
-                    <p class="m-0 copyright">Copyright 2021. All Right Reserved By Ojjomedia</p>
-                </div>
-                <div class="d-flex align-items-center gap-29 pb-15  ">
-                    <div class="gap-10 align-items-center d-flex">
+            <div class="d-flex align-items-center justify-content-between ">
+                <div class="d-flex flex-wrap align-items-center">
+                    <div class="gap-18 d-flex align-items-center ">
                         <span>
-                            <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                            <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M8 15C12.1421 15 15.5 11.6421 15.5 7.5C15.5 3.35786 12.1421 0 8 0C3.85786 0 0.5 3.35786 0.5 7.5C0.5 11.6421 3.85786 15 8 15Z"
-                                    fill="#FF5300" />
+                                <g clip-path="url(#clip0_50817_1906)">
+                                    <path
+                                        d="M12 2.5C17.52 2.5 22 6.98 22 12.5C22 18.02 17.52 22.5 12 22.5C6.48 22.5 2 18.02 2 12.5C2 6.98 6.48 2.5 12 2.5ZM12 4.5C7.58 4.5 4 8.08 4 12.5C4 16.92 7.58 20.5 12 20.5C16.42 20.5 20 16.92 20 12.5C20 8.08 16.42 4.5 12 4.5ZM12 7.5C13.82 7.5 15.413 8.473 16.288 9.928L14.574 10.957C14.3043 10.5072 13.9213 10.1361 13.4634 9.88045C13.0055 9.62484 12.4885 9.49374 11.9641 9.50023C11.4397 9.50672 10.9262 9.65056 10.4747 9.91742C10.0232 10.1843 9.6496 10.5648 9.39107 11.0211C9.13254 11.4774 8.99815 11.9935 9.00128 12.5179C9.00442 13.0424 9.14498 13.5568 9.40895 14.01C9.67292 14.4632 10.0511 14.8392 10.5057 15.1007C10.9603 15.3621 11.4756 15.4998 12 15.5C12.5181 15.5003 13.0275 15.3664 13.4785 15.1112C13.9294 14.856 14.3065 14.4883 14.573 14.044L16.288 15.072C15.726 16.0106 14.8716 16.739 13.8559 17.1453C12.8402 17.5517 11.7192 17.6137 10.6649 17.3217C9.61058 17.0298 8.68114 16.4 8.01914 15.529C7.35713 14.6581 6.99912 13.594 7 12.5C7 9.74 9.24 7.5 12 7.5Z"
+                                        fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_50817_1906">
+                                        <rect width="24" height="24" fill="white" transform="translate(0 0.5)" />
+                                    </clipPath>
+                                </defs>
                             </svg>
 
                         </span>
-                        <p class="privacy m-0">Privacy Plicy</p>
+                        <p class="m-0 copyright">Copyright 2021. All Right Reserved By Ojjomedia</p>
                     </div>
-                    <div class="gap-10 align-items-center d-flex pr-20">
-                        <span>
-                            <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M8 15C12.1421 15 15.5 11.6421 15.5 7.5C15.5 3.35786 12.1421 0 8 0C3.85786 0 0.5 3.35786 0.5 7.5C0.5 11.6421 3.85786 15 8 15Z"
-                                    fill="#FF5300" />
-                            </svg>
+                    <div class="d-flex align-items-center gap-13 pt-15 pl-33 pb-15  flex-wrap ">
+                        <div class="gap-10 align-items-center d-flex">
+                            <span>
+                                <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M8 15C12.1421 15 15.5 11.6421 15.5 7.5C15.5 3.35786 12.1421 0 8 0C3.85786 0 0.5 3.35786 0.5 7.5C0.5 11.6421 3.85786 15 8 15Z"
+                                        fill="#FF5300" />
+                                </svg>
 
-                        </span>
-                        <p class="privacy m-0">Therms of Us</p>
+                            </span>
+                            <p class="privacy m-0">Privacy Plicy</p>
+                        </div>
+                        <div class="gap-10 align-items-center d-flex pr-20">
+                            <span>
+                                <svg width="16" height="15" viewBox="0 0 16 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M8 15C12.1421 15 15.5 11.6421 15.5 7.5C15.5 3.35786 12.1421 0 8 0C3.85786 0 0.5 3.35786 0.5 7.5C0.5 11.6421 3.85786 15 8 15Z"
+                                        fill="#FF5300" />
+                                </svg>
+
+                            </span>
+                            <p class="privacy m-0">Therms of Us</p>
+                        </div>
+
                     </div>
-
                 </div>
-                <div class="radious d-flex align-items-center mb-15 c-pointer arrow">
+                <div class="radious d-flex align-items-center mb-15 c-pointer arrow ">
                     <span class="d-flex align-items-center justify-content-center">
                         <svg width="38" height="37" viewBox="0 0 38 37" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_50894_1654)">

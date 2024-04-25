@@ -1,4 +1,10 @@
+const menuicon = document.querySelector(".nav-icon");
+const menulist = document.querySelector(".lg-view");
 
+
+menuicon.addEventListener("click", function () {
+    menulist.classList.toggle("show");
+});
 
 $('.slider').slick({
     dots: false,
@@ -14,15 +20,17 @@ $('.slider').slick({
         {
             breakpoint: 1024,
             settings: {
-                slidesToShow: 1,
+                slidesToShow: 2,
                 slidesToScroll: 1,
+                dots: false,
+                arrows: false,
             }
         },
         {
-            breakpoint: 600,
+            breakpoint: 768,
             settings: {
                 slidesToShow: 1,
-                slidesToScroll: 2,
+                slidesToScroll: 1,
                 dots: false,
             }
         }
