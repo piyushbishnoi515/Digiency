@@ -478,7 +478,15 @@
     color: #7B7B7B;
     padding-top: 18px;
 }
-
+.pr-20{
+    padding-right: 20px;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.c-pointer{
+    cursor: pointer;
+}
 .menulist2 {
     font-family: "Poppins", sans-serif;
     font-size: 20px;
@@ -488,7 +496,13 @@
     cursor: pointer;
     position: relative;
 }
-
+.radious{
+    border-radius: 50%;
+    background-color: #FF5300;
+}
+.radious:hover{
+    box-shadow: 0 0 10px white;
+}
 .menulist2::after {
     content: "";
     position: absolute;
