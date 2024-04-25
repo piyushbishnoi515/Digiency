@@ -346,6 +346,8 @@
 }
 .backgroundimg{
     background-image: url(../image/backgroundinm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
