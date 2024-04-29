@@ -6,24 +6,23 @@ menuicon.addEventListener("click", function () {
     menulist.classList.toggle("show");
 });
 
-$('.slider').slick({
+$(".slider").slick({
     dots: false,
     infinite: true,
     speed: 300,
     autoplay: true,
+    prevArrow: ".prev",
+    nextArrow: ".next",
     slidesToShow: 3,
     slidesToScroll: 1,
-    prevArrow: ".outer",
-    nextArrow: ".next",
-
     responsive: [
         {
-            breakpoint: 1024,
+            breakpoint: 992,
             settings: {
                 slidesToShow: 2,
                 slidesToScroll: 1,
-                dots: false,
-                arrows: false,
+                infinite: true,
+                dots: false
             }
         },
         {
@@ -31,12 +30,8 @@ $('.slider').slick({
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                dots: false,
+                dots: false
             }
         }
-
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
     ]
 });

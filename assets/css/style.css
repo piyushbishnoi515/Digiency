@@ -103,7 +103,8 @@
     justify-content: center;
     position: absolute;
     left: -5%;
-    top: 60%;
+    top: 50%;
+    transform: translateY(-50%);
     
 
 }
@@ -118,7 +119,8 @@
     justify-content: center;
     position: absolute;
     right: -5%;
-    top: 60%;
+    top: 50%;
+    transform: translateY(-50%);
     margin-left: 7px;
     
 }
@@ -934,4 +936,13 @@
         background-color: #EFEFEF;
         right: 0%;
     }
+}
+@media (max-width:992px) {
+    .next{
+        right: -8%;
+    }
+    .outer{
+        left: -8%;
+    }
+    
 }
